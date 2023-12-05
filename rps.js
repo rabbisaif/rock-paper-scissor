@@ -56,8 +56,38 @@ function play(computerChoice, userChoice) {
 
 }
 
-// Call the play function with the computer and user choices
-let result = play(computerChoice, userChoice);
+// Function definitions and constants (same as your previous code)
 
-// Log the result to the console
-console.log(result);
+// Function definitions and constants (same as your previous code)
+
+// First game
+let computerChoice1 = getComputerChoice();
+let userChoice1 = getUserChoice();
+let result1 = play(computerChoice1, userChoice1);
+console.log('Game 1:', result1);
+
+// Second game
+let computerChoice2 = getComputerChoice();
+let userChoice2 = getUserChoice();
+let result2 = play(computerChoice2, userChoice2);
+console.log('Game 2:', result2);
+
+// Third game
+let computerChoice3 = getComputerChoice();
+let userChoice3 = getUserChoice();
+let result3 = play(computerChoice3, userChoice3);
+console.log('Game 3:', result3);
+
+// Fourth game
+let computerChoice4 = getComputerChoice();
+let userChoice4 = getUserChoice();
+let result4 = play(computerChoice4, userChoice4);
+console.log('Game 4:', result4);
+
+// Fifth game
+let computerChoice5 = getComputerChoice();
+let userChoice5 = getUserChoice();
+let result5 = play(computerChoice5, userChoice5);
+console.log('Game 5:', result5);
+
+
